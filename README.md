@@ -1,130 +1,36 @@
-Here’s a clean, ready-to-use **`README.md`** for your Anime Landing Page project. You can copy-paste this directly into a `README.md` file in your repository.
+# Anime Landing Page
 
----
+A modern, responsive landing page for an anime-themed website, featuring advanced CSS animations and a dark aesthetic.
 
-````md
-# Anime Landing Page 🎌✨
+## Features
 
-A modern, responsive landing page for an **anime-themed website**, featuring advanced CSS animations, scroll-driven effects, and a sleek dark aesthetic.
+- **Hero Section**: Full-screen video background with overlay text and interactive buttons.
+- **Scroll-Driven Animations**: Utilizes the CSS `animation-timeline` property for scroll-linked effects:
+  - Blur effects on scroll (`.autoBlur`).
+  - Elements expanding to full screen (`.autoTakeFull`).
+  - Elements fading and scaling in upon view (`.autoDisplay`).
+- **Modern UI/UX**:
+  - Glassmorphism effects in the header and footer (`backdrop-filter`).
+  - Animated gradient text for headings.
+  - Hover effects on buttons and cards.
+- **Responsive Design**: Optimized for mobile devices with specific layouts for screens under 650px.
+- **Sections**:
+  - Hero (Video & Intro)
+  - About (Image & Gradient Text)
+  - Info (Grid layout with video cards)
+  - Contact (Styled with geometric clip-paths)
 
----
-
-## 🚀 Features
-
-### 🎥 Hero Section
-- Full-screen **video background**
-- Overlay text with animated gradient styling
-- Interactive call-to-action buttons
-
-### 🌀 Scroll-Driven Animations
-Powered by **CSS Scroll-Linked Animations**:
-- **Auto Blur on Scroll** (`.autoBlur`)
-- **Expand to Full Screen** (`.autoTakeFull`)
-- **Fade & Scale on View** (`.autoDisplay`)
-- Uses `animation-timeline` and `view-timeline`
-
-### 🎨 Modern UI / UX
-- Glassmorphism header & footer (`backdrop-filter`)
-- Animated gradient text for headings
-- Smooth hover effects on buttons and cards
-- Dark, cinematic anime-inspired theme
-
-### 📱 Responsive Design
-- Fully optimized for mobile devices
-- Custom layouts for screens **under 650px**
-- Flexible Grid & Flexbox-based structure
-
----
-
-## 🧩 Sections Included
-
-1. **Hero** – Video background with introduction
-2. **About** – Image + animated gradient text
-3. **Info** – Grid layout with anime-style video cards
-4. **Contact** – Stylized section using geometric `clip-path`
-
----
-
-## 🛠 Technologies Used
+## Technologies Used
 
 - **HTML5**
-- **CSS3**
-  - Flexbox
-  - Grid
-  - Keyframes
-  - Scroll-driven animations (`animation-timeline`)
-  - Glassmorphism effects
+- **CSS3** (Flexbox, Grid, Keyframes, View Timeline)
 
----
+## Setup
 
-## 📂 Project Setup
+1. Clone the repository or download the files.
+2. Ensure you have the necessary assets (images and videos) in the correct paths.
+3. Open `index.html` in your web browser to view the page.
 
-1. Clone the repository or download the source files:
-   ```bash
-   git clone <your-repo-url>
-````
+## Browser Support
 
-2. Ensure all required assets are placed correctly:
-
-   ```
-   /assets
-     ├── images/
-     └── videos/
-   ```
-
-3. Open `index.html` in your browser:
-
-   ```bash
-   open index.html
-   ```
-
----
-
-## 🌐 Browser Support
-
-This project uses **CSS Scroll-Driven Animations**, which are supported in:
-
-* ✅ Google Chrome (latest)
-* ✅ Microsoft Edge (latest)
-
-⚠️ Some effects may not work in older browsers or Firefox.
-
----
-
-## 📸 Preview
-
-> Add screenshots or a live demo link here
-> Example:
-
-```md
-![Preview](assets/images/preview.png)
-```
-
----
-
-## 📄 License
-
-This project is open-source and available under the **MIT License**.
-
----
-
-## ⭐ Credits
-
-Designed & developed with ❤️ for anime fans and modern web design lovers.
-
----
-
-Happy coding! 🚀🌸
-
-```
-
----
-
-If you want, I can also:
-- Add **badges** (HTML, CSS, Responsive, Anime)
-- Create a **GitHub-friendly preview section**
-- Customize this README for **portfolio or client use**
-- Add **live demo & folder tree**
-
-Just tell me 👍
-```
+This project uses `animation-timeline`, which requires a browser that supports CSS Scroll-driven Animations (e.g., recent versions of Chrome or Edge).
